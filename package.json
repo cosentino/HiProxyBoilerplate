@@ -1,0 +1,30 @@
+{
+  "name": "hiproxy",
+  "version": "0.1.0",
+  "description": "hiproxy to use local frontend assets on production websites",
+  "scripts": {
+    "serve": "gulp serve",
+    "hiproxy": "hiproxy start --rewrite-file rewrite --https"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-environments": "^0.1.2",
+    "hiproxy": "^1.2.3",
+    "merge-stream": "^1.0.1",
+    "pump": "^1.0.2",
+    "require-dir": "^0.3.2"
+  }
+}

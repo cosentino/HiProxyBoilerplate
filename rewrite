@@ -1,0 +1,27 @@
+####################################
+# Hiproxy configuration file
+#
+# Usage:
+#   $ npm install -g hiproxy
+#   $ hiproxy start --rewrite-file rewrite.hiproxy --https
+#
+# Configure your browser to use hiproxy proxy
+# eg.: http://<youdomain>:5525/proxy.pac
+#
+# see.: http://hiproxy.org/
+#
+####################################
+## global variables
+
+set $local https://localhost:3000;
+
+
+# Example for https://medium.com/
+domain glyph.medium.com {
+  gzip on
+      
+  location ~ /css/e/sr/latin/e/ssr/latin/e/ssb/latin/m2.css {
+    proxy_pass $local/Medium/m2.css;
+  }
+
+}

@@ -35,3 +35,6 @@ Another option is to open http://127.0.0.1:5525/ and click on "Open Browser". Th
 The first time you use hiproxy for a particular domain, you may need to access the resource directly from the browser and accept the self signed SSL certificate.
 
 In case chrome still refuse to load the resource for HSTS security reasons, you may want to try the following trick (https://twilblog.github.io/chrome/security/2016/06/27/badidea.html): Click anyware on the page and type "badidea". The page will load as normal, and it will continue to do so as long as your session continues.
+
+Is Safar on OsX refuses to show the resource (and the website that uses it), you may want to click on Safari -> "Clear History...", reload the page and then skip the security warining.
+

@@ -4,12 +4,16 @@ Boilerplate project containing hiproxy and a basic node server. Allows to test l
 
 ## Setup
 
-> npm install
+```
+npm install
+```
 
 ## Run the webserver and hiproxy
 
-> npm run serve
-> npm run hiproxy
+```
+npm run serve
+npm run hiproxy
+```
 
 ## How to use
 
